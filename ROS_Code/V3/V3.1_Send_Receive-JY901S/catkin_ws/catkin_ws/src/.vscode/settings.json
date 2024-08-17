@@ -1,0 +1,12 @@
+{
+    // "editor.defaultFormatter": "xaver.clang-format",
+    "C_Cpp.formatting": "clangFormat",
+    "editor.formatOnSave": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "C_Cpp.intelliSenseEngine": "default"
+}
