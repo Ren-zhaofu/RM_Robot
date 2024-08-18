@@ -1,0 +1,8 @@
+prefix=/home/renzhaofu/catkin_ws/devel
+
+Name: com_pkg
+Description: Description of com_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

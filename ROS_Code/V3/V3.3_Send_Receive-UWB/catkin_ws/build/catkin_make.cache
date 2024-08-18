@@ -1,0 +1,2 @@
+atr_pkg:com_pkg:ssr_pkg:vel_pkg
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/renzhaofu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/renzhaofu/catkin_ws/install -G Unix Makefiles
