@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg = "ssr_pkg" type = "IMU_node" name = "IMU_node"/>
+
+  <node pkg = "ssr_pkg" type = "UWB_node" name = "UWB_node"/>
+
+  <node pkg = "atr_pkg" type = "Motor_M3508_node" name = "Motor_M3508_node" output = "screen"/>
+
+</launch>

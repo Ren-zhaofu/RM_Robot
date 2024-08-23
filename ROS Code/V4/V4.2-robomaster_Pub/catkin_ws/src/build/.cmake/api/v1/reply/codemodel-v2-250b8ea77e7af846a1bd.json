@@ -1,0 +1,729 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						39,
+						50
+					]
+				},
+				{
+					"build" : "gtest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/usr/src/googletest"
+				},
+				{
+					"build" : "gtest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/usr/src/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "gtest/googletest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "/usr/src/googletest/googletest",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "atr_pkg",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "atr_pkg",
+					"targetIndexes" : 
+					[
+						2,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						45,
+						46,
+						47,
+						48,
+						49
+					]
+				},
+				{
+					"build" : "robomaster_msgs",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "robomaster_msgs",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "ssr_pkg",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "ssr_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "com_pkg",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "com_pkg",
+					"targetIndexes" : 
+					[
+						1,
+						9,
+						10,
+						11,
+						12,
+						13,
+						40,
+						41,
+						42,
+						43,
+						44
+					]
+				},
+				{
+					"build" : "vel_pkg",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "vel_pkg"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						39,
+						50
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "atr_pkg",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						45,
+						46,
+						47,
+						48,
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "robomaster_msgs",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ssr_pkg",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "com_pkg",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						9,
+						10,
+						11,
+						12,
+						13,
+						40,
+						41,
+						42,
+						43,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "vel_pkg",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "IMU_node::@3049269fbcae04a2e522",
+					"jsonFile" : "target-IMU_node-Debug-091170151ca472742768.json",
+					"name" : "IMU_node",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Linux_Serial_node::@564738d1193a7b94c913",
+					"jsonFile" : "target-Linux_Serial_node-Debug-1ff9a9ff7c68ad22bf02.json",
+					"name" : "Linux_Serial_node",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Motor_M3508_node::@757955ab33051385047b",
+					"jsonFile" : "target-Motor_M3508_node-Debug-ded15fd8516c3fef5a01.json",
+					"name" : "Motor_M3508_node",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UWB_node::@3049269fbcae04a2e522",
+					"jsonFile" : "target-UWB_node-Debug-a4aa730243dd0cd73e77.json",
+					"name" : "UWB_node",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "_catkin_empty_exported_target::@747415e62ac240bed2b5",
+					"jsonFile" : "target-_catkin_empty_exported_target-Debug-842ddb61801ad0eebd6c.json",
+					"name" : "_catkin_empty_exported_target",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "_robomaster_msgs_generate_messages_check_deps_robomaster::@747415e62ac240bed2b5",
+					"jsonFile" : "target-_robomaster_msgs_generate_messages_check_deps_robomaster-Debug-dce214d75ad6b6ef4f50.json",
+					"name" : "_robomaster_msgs_generate_messages_check_deps_robomaster",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_test_results::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_test_results-Debug-0c2d8f4834861a8f9446.json",
+					"name" : "clean_test_results",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "download_extra_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-download_extra_data-Debug-26d419a6bf2b582c2a72.json",
+					"name" : "download_extra_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doxygen-Debug-88595cbda2a15872d775.json",
+					"name" : "doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "geometry_msgs_generate_messages_cpp::@564738d1193a7b94c913",
+					"jsonFile" : "target-geometry_msgs_generate_messages_cpp-Debug-58141d425253b9795e29.json",
+					"name" : "geometry_msgs_generate_messages_cpp",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "geometry_msgs_generate_messages_eus::@564738d1193a7b94c913",
+					"jsonFile" : "target-geometry_msgs_generate_messages_eus-Debug-1a39bec254ffb15a6a66.json",
+					"name" : "geometry_msgs_generate_messages_eus",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "geometry_msgs_generate_messages_lisp::@564738d1193a7b94c913",
+					"jsonFile" : "target-geometry_msgs_generate_messages_lisp-Debug-23fbe03240523c900957.json",
+					"name" : "geometry_msgs_generate_messages_lisp",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "geometry_msgs_generate_messages_nodejs::@564738d1193a7b94c913",
+					"jsonFile" : "target-geometry_msgs_generate_messages_nodejs-Debug-ab8d5a0c8e3f21dce4bc.json",
+					"name" : "geometry_msgs_generate_messages_nodejs",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "geometry_msgs_generate_messages_py::@564738d1193a7b94c913",
+					"jsonFile" : "target-geometry_msgs_generate_messages_py-Debug-ef2b184b80e41562eec2.json",
+					"name" : "geometry_msgs_generate_messages_py",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock-Debug-3be6f8ba494fc199e8fb.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock_main-Debug-74793b19a7f445a95c43.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest-Debug-d898f45654e826fa9517.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest_main-Debug-68220caf429c4fb509aa.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_gencpp::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_gencpp-Debug-1fd727cc4ea8a5944ef7.json",
+					"name" : "robomaster_msgs_gencpp",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_generate_messages::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_generate_messages-Debug-400bb1804afe817c6cd6.json",
+					"name" : "robomaster_msgs_generate_messages",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_generate_messages_cpp::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_generate_messages_cpp-Debug-ec8853d15a5da42f4e91.json",
+					"name" : "robomaster_msgs_generate_messages_cpp",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_generate_messages_eus::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_generate_messages_eus-Debug-e08e655ef7ca0c574d64.json",
+					"name" : "robomaster_msgs_generate_messages_eus",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_generate_messages_lisp::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_generate_messages_lisp-Debug-5b82490f68dacff86ef8.json",
+					"name" : "robomaster_msgs_generate_messages_lisp",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_generate_messages_nodejs::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_generate_messages_nodejs-Debug-0998d10de56165abcaa4.json",
+					"name" : "robomaster_msgs_generate_messages_nodejs",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_generate_messages_py::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_generate_messages_py-Debug-b73d4cb6446ad2a6604c.json",
+					"name" : "robomaster_msgs_generate_messages_py",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_geneus::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_geneus-Debug-5226324c0a95e8299831.json",
+					"name" : "robomaster_msgs_geneus",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_genlisp::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_genlisp-Debug-9dd0073358bf26ada685.json",
+					"name" : "robomaster_msgs_genlisp",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_gennodejs::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_gennodejs-Debug-a67cb728e8066f90f1a1.json",
+					"name" : "robomaster_msgs_gennodejs",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "robomaster_msgs_genpy::@747415e62ac240bed2b5",
+					"jsonFile" : "target-robomaster_msgs_genpy-Debug-a67606b7e11821d377c1.json",
+					"name" : "robomaster_msgs_genpy",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_cpp::@757955ab33051385047b",
+					"jsonFile" : "target-roscpp_generate_messages_cpp-Debug-83571e653c14bdbd5cd2.json",
+					"name" : "roscpp_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_eus::@757955ab33051385047b",
+					"jsonFile" : "target-roscpp_generate_messages_eus-Debug-19998d7ab5d20f365287.json",
+					"name" : "roscpp_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_lisp::@757955ab33051385047b",
+					"jsonFile" : "target-roscpp_generate_messages_lisp-Debug-fff63d6049555722413d.json",
+					"name" : "roscpp_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_nodejs::@757955ab33051385047b",
+					"jsonFile" : "target-roscpp_generate_messages_nodejs-Debug-704e971d51f721f36b7b.json",
+					"name" : "roscpp_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_py::@757955ab33051385047b",
+					"jsonFile" : "target-roscpp_generate_messages_py-Debug-d1638c86c82a9d7dce7f.json",
+					"name" : "roscpp_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_cpp::@757955ab33051385047b",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_cpp-Debug-2bf9eea3aac4d6d4bf56.json",
+					"name" : "rosgraph_msgs_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_eus::@757955ab33051385047b",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_eus-Debug-9b7b4e1b3f6406b3b979.json",
+					"name" : "rosgraph_msgs_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_lisp::@757955ab33051385047b",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_lisp-Debug-1a6127f9760bc2fc7792.json",
+					"name" : "rosgraph_msgs_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_nodejs::@757955ab33051385047b",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_nodejs-Debug-b66a29bb69b7f655bc28.json",
+					"name" : "rosgraph_msgs_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_py::@757955ab33051385047b",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_py-Debug-8f2159608e2373285173.json",
+					"name" : "rosgraph_msgs_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_tests-Debug-8df51f7a33fa18f9de57.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sensor_msgs_generate_messages_cpp::@564738d1193a7b94c913",
+					"jsonFile" : "target-sensor_msgs_generate_messages_cpp-Debug-d13414f887ffbe39c82d.json",
+					"name" : "sensor_msgs_generate_messages_cpp",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sensor_msgs_generate_messages_eus::@564738d1193a7b94c913",
+					"jsonFile" : "target-sensor_msgs_generate_messages_eus-Debug-bd276ba1ac66b55ff142.json",
+					"name" : "sensor_msgs_generate_messages_eus",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sensor_msgs_generate_messages_lisp::@564738d1193a7b94c913",
+					"jsonFile" : "target-sensor_msgs_generate_messages_lisp-Debug-2a36fbcf9e42bbf82d9b.json",
+					"name" : "sensor_msgs_generate_messages_lisp",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sensor_msgs_generate_messages_nodejs::@564738d1193a7b94c913",
+					"jsonFile" : "target-sensor_msgs_generate_messages_nodejs-Debug-7d4ff8503e58db53a8de.json",
+					"name" : "sensor_msgs_generate_messages_nodejs",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sensor_msgs_generate_messages_py::@564738d1193a7b94c913",
+					"jsonFile" : "target-sensor_msgs_generate_messages_py-Debug-f2a9e5611bf8d9a55610.json",
+					"name" : "sensor_msgs_generate_messages_py",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_cpp::@757955ab33051385047b",
+					"jsonFile" : "target-std_msgs_generate_messages_cpp-Debug-edff4d79768345e527c2.json",
+					"name" : "std_msgs_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_eus::@757955ab33051385047b",
+					"jsonFile" : "target-std_msgs_generate_messages_eus-Debug-2d9fd5e659406e2703f4.json",
+					"name" : "std_msgs_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_lisp::@757955ab33051385047b",
+					"jsonFile" : "target-std_msgs_generate_messages_lisp-Debug-249dcc8a0f050528fc02.json",
+					"name" : "std_msgs_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_nodejs::@757955ab33051385047b",
+					"jsonFile" : "target-std_msgs_generate_messages_nodejs-Debug-91c7bb45a0f8e60893ef.json",
+					"name" : "std_msgs_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_py::@757955ab33051385047b",
+					"jsonFile" : "target-std_msgs_generate_messages_py-Debug-4bf10ddc51b14fb46024.json",
+					"name" : "std_msgs_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-Debug-645674a8b6faee116c67.json",
+					"name" : "tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/renzhaofu/catkin_ws/src/build",
+		"source" : "/home/renzhaofu/catkin_ws/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

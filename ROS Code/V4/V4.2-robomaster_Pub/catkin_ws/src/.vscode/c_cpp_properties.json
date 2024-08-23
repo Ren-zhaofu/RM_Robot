@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/renzhaofu/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/renzhaofu/catkin_ws/src/atr_pkg/include/**",
+        "/home/renzhaofu/catkin_ws/src/com_pkg/include/**",
+        "/home/renzhaofu/catkin_ws/src/robomaster_msgs/include/**",
+        "/home/renzhaofu/catkin_ws/src/ssr_pkg/include/**",
+        "/home/renzhaofu/catkin_ws/src/vel_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c99",
+      "cppStandard": "c++98",
+      "defines": [
+        ".",
+        "=",
+        "->"
+      ]
+    }
+  ],
+  "version": 4
+}
