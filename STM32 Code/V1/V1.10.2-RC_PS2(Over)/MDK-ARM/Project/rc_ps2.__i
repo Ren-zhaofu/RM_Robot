@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers
+-I.\RTE\_Project
+-IR:\Engineering\Keil\Keil_MDK\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+-IR:\Engineering\Keil\Keil_MDK\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx
+-o project\rc_ps2.o --omf_browse project\rc_ps2.crf --depend project\rc_ps2.d "..\Drivers\BSP\RC\RC_PS2.c"
